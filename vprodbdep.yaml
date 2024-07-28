@@ -38,7 +38,7 @@ spec:
           effect: "NoSchedule"
           operator: "Exists"
       nodeSelector:
-        zone: us-east-1b
+        zone: us-east-1a
       volumes:
         - name: vpro-db-data
           awsElasticBlockStore:
